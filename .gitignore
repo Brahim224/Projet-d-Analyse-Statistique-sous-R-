@@ -1,0 +1,94 @@
+
+---
+
+## `.gitignore`
+
+```gitignore
+# =========================
+# Fichiers R / RStudio
+# =========================
+
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# Dossier RStudio
+.Rproj.user/
+
+# =========================
+# Fichiers temporaires
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Fichiers système
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Cache
+# =========================
+
+cache/
+tmp/
+temp/
+
+# =========================
+# Fichiers LaTeX / PDF
+# =========================
+
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# =========================
+# Fichiers RMarkdown
+# =========================
+
+*_cache/
+*.utf8.md
+*.knit.md
+
+# =========================
+# Environnements
+# =========================
+
+.Renviron
+Renviron.site
+
+# =========================
+# Bibliothèques locales
+# =========================
+
+renv/library/
+packrat/lib/
+
+# =========================
+# Sauvegardes
+# =========================
+
+*~
